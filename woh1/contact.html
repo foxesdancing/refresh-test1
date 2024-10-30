@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <link
+    href="https://bootswatch.com/5/morph/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <link href="css/style.css" rel="stylesheet" />
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacting</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            data-bs-toggle="tab"
+            href="index.html"
+            aria-selected="false"
+            >Main page</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            data-bs-toggle="tab"
+            href="cv.html"
+            aria-selected="false"
+            >CV</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            data-bs-toggle="tab"
+            href="hobbies.html"
+            aria-selected="false"
+            >Hobbies</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            data-bs-toggle="tab"
+            href="contact.html"
+            aria-selected="true"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <br />
+    <h1>Contacting</h1>
+    <form>
+      <fieldset>
+        <div>
+          <label for="name" class="form-label mt-4">Name</label><br />
+          <input
+            type="text"
+            class="form-control custom-textarea"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="exampleInputEmail1" class="form-label mt-4"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control custom-textarea"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+            required
+          />
+        </div>
+        <div>
+          <label for="age" class="form-label mt-4">Age:</label>
+          <input
+            type="number"
+            class="form-control custom-textarea2"
+            id="age"
+            name="age"
+            min="0"
+            max="100"
+            required
+          />
+        </div>
+        <div>
+          <label for="message" class="form-label mt-4">Message</label>
+          <textarea
+            class="form-control custom-textarea"
+            id="message"
+            rows="3"
+          ></textarea>
+        </div>
+        <br />
+        <h2>Where did you hear from me?</h2>
+        <fieldset>
+          <div class="form-check">
+            <input
+              class="form-check-input custom-checkbox"
+              type="checkbox"
+              value="in"
+              id="google"
+            />
+            <label class="form-check-label checkbox-label" for="google">
+              Google
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input custom-checkbox"
+              type="checkbox"
+              value="in"
+              id="friend"
+            />
+            <label class="form-check-label checkbox-label" for="friend">
+              From a friend
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input custom-checkbox"
+              type="checkbox"
+              value="in"
+              id="linkedin"
+            />
+            <label class="form-check-label checkbox-label" for="linkedin">
+              From LinkedIn
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input custom-checkbox"
+              type="checkbox"
+              value="in"
+              id="other"
+            />
+            <label class="form-check-label checkbox-label" for="other">
+              Other
+            </label>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </fieldset>
+    </form>
+    <br />
+  </body>
+</html>
